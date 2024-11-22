@@ -26,10 +26,10 @@ class MyApp extends StatelessWidget {
             surface: const Color.fromARGB(255, 44, 50, 60)),
         scaffoldBackgroundColor: const Color.fromARGB(255, 49, 57, 59),
       ),
-      initialRoute: '/',
+      initialRoute: 'home',
       routes: {
-        '/': (context) => const GroceryScreen(),
-        '/newItem': (context) => const NewItem(),
+        'home': (context) => const GroceryScreen(),
+        'home/newItem': (context) => const NewItem(),
       },
     );
   }

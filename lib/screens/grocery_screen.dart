@@ -63,7 +63,7 @@ class _GroceryScreenState extends ConsumerState<GroceryScreen> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.of(context).pushNamed('/newItem');
+              Navigator.of(context).pushNamed('home/newItem');
             },
             icon: const Icon(Icons.add),
           ),
